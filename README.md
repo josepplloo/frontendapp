@@ -1,24 +1,29 @@
 # frontendapp 🦈
 
-With the following command you will create the project structure:
+With the following command you will create the settings of your project:
   
     npm init
 
-With the follow command you will add the web server:
+With the following command you will add the web server globally:
     
-    npm install http-server --save-dev
+    npm install http-server -g
+
+<aside class="warning">
+You must use a super user if it doesn't work.
+</aside>
+
+You could start the web server to check if everything is ok:
+    
+    http-server
 
 Now create a folder `src` with two files inside:
     
     touch src/index.html
     touch src/style.css
 
-You could start the web server to check if everything is ok:
-    
-    npm start
-
 Now, code time!, add the follow code to index.html:
-```
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,7 +42,7 @@ Now, code time!, add the follow code to index.html:
 ````
 add the follow code to style.css:
 
-```
+```Javascript
 const node = document.querySelector('.app')
 const child = `<p class="love">Tiamo ${15*3}</p>`
 node.innerHTML = child
