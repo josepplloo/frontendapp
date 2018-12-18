@@ -8,9 +8,9 @@ With the following command you will add the web server globally:
     
     npm install http-server -g
 
-<aside class="warning">
-You must use a super user if it doesn't work.
-</aside>
+
+>You  must use a super user if it doesn't work.
+
 
 You could start the web server to check if everything is ok:
     
