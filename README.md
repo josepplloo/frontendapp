@@ -1,10 +1,10 @@
 # frontendapp 🦈
 
-Whit the follow command you will create the project structure:
+With the following command you will create the project structure:
   
     npm init
 
-Whit the follow command you will add the web server:
+With the follow command you will add the web server:
     
     npm install http-server --save-dev
 
